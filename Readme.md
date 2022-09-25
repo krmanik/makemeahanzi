@@ -1,6 +1,6 @@
 # Install and run the makemeahanzi tool
 
-1. Install meteor, (on Ubuntu)
+1. Install meteor (on Ubuntu)
    ```
    sudo apt install nodejs
    npm install -g meteor
@@ -9,9 +9,12 @@
    ```
    curl https://install.meteor.com/ | sh
    ```
-2. Install and run mongodb service, (mongodump / mongorestore required for the projects)
-   https://www.mongodb.com/docs/database-tools/installation/installation/
-   https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
+   
+   For other system view [www.meteor.com](https://www.meteor.com/developers/install)
+
+2. Install and run `mongodb` service, (`mongodump` / `mongorestore` required for the projects)
+   - https://www.mongodb.com/docs/database-tools/installation/installation/
+   - https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
 
 3. Running meteor will give errors `error: certificate has expired`, so run meteor with `NODE_TLS_REJECT_UNAUTHORIZED=0` flag
    ```

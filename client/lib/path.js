@@ -75,7 +75,8 @@ Template.path_stage.events({
 Template.path_stage.helpers({
   alternative: () => Session.get('stages.path.alternative') || '?',
   options: () => [{font: 'arphic/gkai00mp.ttf', label: 'AR PL KaitiM GB'},
-                  {font: 'arphic/UKaiCN.ttf', label: 'AR PL UKai'}],
+                  {font: 'arphic/UKaiCN.ttf', label: 'AR PL UKai'},
+                  {font: 'fonts/LiuJianMaoCao-Regular.ttf', label: 'LiuJianMaoCao-Regular'}]
 });
 
 Meteor.startup(() => {
